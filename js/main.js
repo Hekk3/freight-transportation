@@ -36,3 +36,14 @@ headerNext.addEventListener('click', () => {
 	moveTrack1();
 	checkBtn();
 });
+
+// burger 
+
+const burgerBtn = document.querySelector('.burger');
+const nav = document.querySelector('.nav');
+
+
+burgerBtn.addEventListener('click', () => {
+	burgerBtn.classList.toggle('burger--active');
+	nav.classList.toggle('nav--active');
+});
